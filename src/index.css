@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,700&family=Andika:ital@1&family=Inter:wght@400;600;700&family=Kalam&family=Montserrat:ital,wght@0,300;0,400;0,500;1,300&family=Xanh+Mono:ital@1&display=swap');
+
+
+
+html,
+body,
+#root,
+.app{
+  width: 100%;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(224, 219, 219);
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(22, 22, 22, 0.3);
+}
+
+#navbar {
+  transition: background-color 0.3s;
+}
+
+#navbar.scroll {
+  background-color: #333; /* Change this to your desired background color */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.link{
+  text-decoration: none;
+  color: gold;
+  margin-left: 7px;
+}
