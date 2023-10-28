@@ -111,7 +111,7 @@ export default function Setting() {
       return
     }
     ChangePassword(user).then(({ data, error }) => {
-      if (data.message == "Success") {
+      if (data?.message == "Success") {
         setIsloading(false)
         user.password = ""
         user.RePassword = ""
